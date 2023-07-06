@@ -1,0 +1,42 @@
+.navigation__menu {
+    background-color: rgb(24,24,26);
+    height: 70px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.navigation__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.navigation__title {
+    color: rgb(153,153,153);
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    &:hover {
+        color: white;
+        transition: 0.3s ease-in-out;
+    }
+}
+
+.navigation__tab {
+    color: rgb(153,153,153);
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 10px;
+    &:last-child {
+        margin-right: 0px;
+    }
+    &:hover {
+        color: white;
+        transition: 0.3s ease-in-out;
+    }
+}
